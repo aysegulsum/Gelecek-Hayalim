@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Accordion Example</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: bisque">
+    <div class="container mt-5">
+      <h1 class="text-center mb-5">Sevimli Kuşlar</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+              style="background-color: #ea82d2"
+            >
+              Serçeler (Passeridae)
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <img
+                src="https://cdn.pixabay.com/photo/2024/05/24/19/06/bird-8785666_1280.jpg"
+                alt="Serçe"
+                width="300"
+                height="300"
+                style="border-radius: 50%"
+              />
+
+              <p>
+                Dünya genelinde yaygın olarak görülen küçük ötücü kuşlardır.
+                Genellikle şehirlerde, köylerde ve kırsal alanlarda yaşayan bu
+                kuşlar, insanlarla iç içe bir hayat sürerler. Serçeler, toplu
+                halde yaşamayı seven sosyal kuşlardır ve sürüler halinde hareket
+                ederler. Bu kuşların tüyleri genellikle kahverengi, gri ve beyaz
+                tonlarında olup, erkek serçeler dişilere göre daha parlak
+                renklere sahiptir. Ortalama 12-15 cm boyunda olan serçelerin
+                güçlü ve kısa gagaları, tohumlarla beslenmelerine uygundur.
+                Ancak serçeler, tohumların yanı sıra böcekler, küçük bitkiler ve
+                ekmek kırıntıları gibi gıdaları da tüketebilirler. Serçelerin
+                doğadaki rolleri oldukça önemlidir. Böcek popülasyonlarını
+                kontrol ederek doğal dengeyi sağlamaya yardımcı olurlar. Bunun
+                yanı sıra, yerleşim alanlarına olan yakınlıkları nedeniyle
+                serçeler, şehir yaşamının vazgeçilmez simgelerinden biri haline
+                gelmiştir. Serçeler aynı zamanda son derece dayanıklı kuşlardır
+                ve farklı iklim koşullarına adapte olabilirler. Ancak modern
+                şehirleşme, tarım ilaçları ve doğal yaşam alanlarının kaybı
+                nedeniyle serçe nüfusları bazı bölgelerde azalma göstermektedir.
+                Doğal yaşamın küçük ama önemli bir parçası olan serçeler,
+                çevremizde sıkça rastladığımız neşeli ve hareketli kuşlardır.
+                Onları gözlemlemek, doğanın güzelliklerini keşfetmek ve korumak
+                için atılacak adımlar, gelecek nesillerin de bu sevimli kuşları
+                görebilmesi için son derece önemlidir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              style="background-color: rgb(183, 128, 238)"
+            >
+              Kuğular (Cygnus)
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/09/23/09/01/swan-6649194_1280.jpg"
+                alt="Kuğu"
+                width="300"
+                height="300"
+                style="border-radius: 50%"
+              />
+              <p>
+                Zarafetleri ve güzellikleriyle bilinen büyük su kuşlarıdır.
+                Kazlar ve ördeklerle aynı aileye (Anatidae) ait olan kuğular,
+                geniş kanatları, uzun boyunları ve güçlü gövdeleri ile dikkat
+                çekerler. Genellikle göller, nehirler ve bataklık gibi su
+                kenarlarında yaşarlar. Beyaz tüyleriyle tanınan kuğuların bazı
+                türleri siyah veya gri tüylere de sahip olabilir. Kuğular,
+                sadakatleriyle bilinen hayvanlardır. Genellikle ömür boyu aynı
+                eşle yaşarlar ve yuva yaparak her yıl aynı bölgeye dönerler.
+                Oldukça korumacı olan kuğular, yavrularını ve yuvalarını
+                tehditlere karşı savunmak için agresif davranabilirler. Otçul
+                olan bu kuşlar, su bitkileri ve suyun yüzeyinde bulunan küçük
+                organizmalarla beslenirler. Kuğular, zarif görünüşlerinin yanı
+                sıra, uzun mesafeler kat edebilen güçlü uçuculardır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+              style="background-color: #74bce5"
+            >
+              Flamingolar (Phoenicopteridae)
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/15/21/52/bird-4553025_1280.jpg"
+                alt="Flamingo"
+                width="300"
+                height="300"
+                style="border-radius: 50%"
+              />
+              <p>
+                Uzun bacakları, ince boyunları ve pembe-kırmızı renkleriyle
+                tanınan dikkat çekici kuşlardır. Bu renklerini, yedikleri
+                gıdalarda bulunan karotenoid pigmentlerinden alırlar. Sığ
+                göller, tuzlu bataklıklar ve lagünler gibi su kaynaklarının bol
+                olduğu yerlerde yaşayan flamingolar, genellikle toplu halde,
+                büyük sürüler halinde bulunurlar. Flamingoların beslenme
+                alışkanlıkları oldukça ilginçtir. Suya başlarını daldırarak,
+                gagalarıyla küçük su organizmalarını, algleri ve kabukluları
+                filtrelerler. Uzun bacakları, onlara derin sularda bile rahatça
+                beslenme imkanı sağlar. Flamingolar sosyal kuşlardır ve büyük
+                kolonilerde yaşarlar, bu da onların güvenlik ve üreme açısından
+                avantaj sağlar. Üreme dönemlerinde birbirlerine özgü dans
+                benzeri hareketler yaparak eş seçimi gerçekleştirirler.
+                Flamingoların zarif duruşları ve canlı renkleri, onları doğanın
+                en dikkat çekici kuşlarından biri yapar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
